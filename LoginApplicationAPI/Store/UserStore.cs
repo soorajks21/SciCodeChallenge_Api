@@ -9,7 +9,6 @@ namespace LoginApplicationAPI.Store
     {
         public UserStore()
         {
-
         }
         public bool login(string userName, string password)
         {
@@ -21,7 +20,6 @@ namespace LoginApplicationAPI.Store
             {
                 return false;
             }
-            
         }
     }
 }
